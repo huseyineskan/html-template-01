@@ -1,2 +1,5 @@
-# html-template-01
-Html template 01
+# HTML Template 01
+
+We are coding responsive html design.
+
+
