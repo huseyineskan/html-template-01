@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <meta name="keyword" content="Hüseyin Eskan | Tanıtım Sayfası">
+    <meta name="description" content="web tasarım, web programlama">
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- CSS Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+
+    <!-- CSS Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav id="navbar">
+                <p id="logo-text" class="text-center heading-small"><a href="#">Hüseyin ESKAN</a></p>
+                <div>
+                    <ul id="main_menu">
+                        <li><a href="#home">Anasayfa</a></li>
+                        <li><a href="#services">Hizmetlerimiz</a></li>
+                        <li><a href="#about">Hakkımızda</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                        <li>
+                            <div class="mobil-menu-social">
+                                <p>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a id="btn-menu" onclick="toggle();"><i class="fa fa-bars"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+       <div class="text">
+            <p>BİZLER</p>
+            <p><span id="changeText">KALİTELİ</span><br>BİR AJANSIZ</p>
+            <span><a href="#contact">İLETİŞİM</a></span>
+            <!-- <span>We are a passionate digital design agency that specializes in beautiful and<br>easy-to-use digital design & web development services.</span> -->
+       </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>HİZMETLERİMİZ</h2>
+            <div class="boxes">
+                <div class="service-box">
+                    <span>1</span>
+                    <h3>İNŞAAT</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, illum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, illum!</p>
+                </div>
+                <div class="service-box">
+                    <span>2</span>
+                    <h3>EMLAK</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, illum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, illum!</p>
+                </div>
+                <div class="service-box">
+                    <span>3</span>
+                    <h3>TURİZM</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, illum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, illum!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>HAKKIMIZDA</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>Biz Kimiz?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, possimus dolorem fugiat enim voluptates doloremque veritatis earum fugit corrupti porro, quasi autem repudiandae maiores, voluptatum dicta velit tempore modi hic. Odit, aut animi. Veniam provident molestias temporibus culpa exercitationem! Natus molestiae minus accusantium nisi libero autem delectus laudantium consequuntur? Dolore qui aspernatur rem veritatis harum, sint vero sed doloribus eius.    </p>
+                </div>
+                <div class="col">
+                    <img src="./img/home.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>İLETİŞİM</h2>
+            <div class="row">
+                <div class="col info">
+                    <p>Adres<br><span>Güzelce Mah. Perakende Sok. Neşe Sitesi TOKAT</span></p>
+                    <p>E-Posta<br><span>huseyineskan01@gmail.com</span></p>
+                    <p>Telefon<br><span>0530 161 12 14</span></p>
+                </div>
+                <div class="col">
+                    <form action="#" method="POST">
+                        <!-- <legend>İletişim Formu</legend> -->
+                        <div class="input-group">
+                            <input type="text" name="name" id="name" autocomplete="off" placeholder="İsim - Soyisim">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="title" id="title" autocomplete="off" placeholder="Konu">
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" id="message" autocomplete="off" placeholder="Mesajınız..." ></textarea>
+                        </div>
+                        <div class="input-group">
+                            <input type="submit" value="Gönder" name="contact-form">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="socials">
+                <p>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </p>
+            </div>
+            <!-- <div id="mapLocation">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97353.7732157951!2d36.46140061211006!3d40.31337888109482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407db64b082d54f1%3A0xfcd494e5051ec25a!2sTokat%2C%20Tokat%20Merkez%2FTokat!5e0!3m2!1str!2str!4v1632387212516!5m2!1str!2str" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div> -->
+        </div>
+    </section>
+    <section id="footer">
+        <footer>
+            <p>Designed by <a target="_blank" href="https://heskan.com">heskan.com</a></p>
+        </footer>
+    </section>
+
+    <div id="fixedContact">
+        <div id="phoneCall"><a href="#">HEMEN ARA</a></div>
+        <div id="whatsapp"><a href="#">WHATSAPP</a></div>
+    </div>
+
+</body>
+</html>
+
+<script src="js/main.js"></script>

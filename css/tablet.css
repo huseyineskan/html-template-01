@@ -1,0 +1,94 @@
+/* NAVBAR */
+html{
+    font-size: .9rem;
+}
+/* HOME SECTION */
+#home .container .row{
+    width: 100%;
+    height: auto;
+}
+
+/* SERVIVES SECTION */
+#services .container .service-box{
+    width: 100%;
+}
+#services{
+    padding-top: 1rem;
+}
+
+/* ABOUT SECTION */
+#about{
+    padding-top: 2rem;
+}
+#about .row{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+#about .row .col{
+    width: 100%;
+}
+
+#about .row .col img{
+    margin-top: 1.5rem;
+}
+
+/* CONTACT SECTION */
+
+#contact .row{
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+#contact .row .col{
+    width: 100%;
+}
+
+#fixedContact{
+    visibility: visible;
+}
+
+
+/* MENU */
+#main_menu{
+    z-index: -1;
+    background: #2F3640;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    right: -50%;
+    bottom: 0;
+    padding-top: 70px;
+    transition: 200ms ease;
+}
+
+.toggleClass{
+    right: 0 !important;
+}
+
+#navbar ul li{
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#navbar ul li:last-child{
+    display: block;
+}
+
+.mobil-menu-social{
+    margin-top: 20px;
+}
+.mobil-menu-social a i{
+    font-size: 24px;
+}
+
+#btn-menu{
+    display: block;
+    font-size: 16px;
+}
+
+#btn-menu:hover{
+    color:var(--detail-color);
+}

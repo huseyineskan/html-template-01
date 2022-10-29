@@ -1,0 +1,31 @@
+:root{
+    --bg-dark : #2f3640; /* Ana bg renk */
+    --color-dark : #2f3640; /* Ana renk */
+    --bg-light : #ecf0f1;
+    --detail-color : #10ac84; /* Detay renk */
+    --color-white : #fff;
+}
+
+/* CONTAINTER */
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+}
+
+/* TEXT */
+
+.text-center{
+    text-align:center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+}
+
+.heading-big{
+    font-size: 1.75rem;
+}
